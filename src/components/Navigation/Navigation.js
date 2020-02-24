@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
+import pdf from '../../assets/images/resumeJakubSladek.pdf'
 
 const NavigationWrapper = styled.nav`
 position:absolute;
@@ -43,7 +44,9 @@ const Navigation = () => (
             <NavigationListItem>
                 <Link to="/about" >.about</Link>
             </NavigationListItem>
-            <NavigationListItem>.resume</NavigationListItem>
+            <a target="_blank" href={pdf} download="resumeJakubSladek" >
+                <NavigationListItem>.resume</NavigationListItem>
+            </a>
         </NavigationList>
     </NavigationWrapper>
 )

@@ -47,7 +47,7 @@ const SocialLinks = styled.div`
 const socialsArray = [
   { url: 'https://github.com/MironBanks', icon: 'github' },
   {
-    url: 'https://www.linkedin.com/in/akram-khalid-12b977142/',
+    url: 'https://www.linkedin.com/in/jakub-sladek/',
     icon: 'linkedin',
   },
   { url: 'https://www.instagram.com/dealwith_that', icon: 'instagram' },
