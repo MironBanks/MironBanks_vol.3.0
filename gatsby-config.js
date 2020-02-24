@@ -6,14 +6,20 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-layout`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
           {
-            family: `Montserrat`,
-            variants: [`100`, `200`, `400`, `600`, `700`],
+            family: `Teko`,
+            variants: [`100`, `200`, `300`, `400`, `600`, `700`],
+          },
+          {
+            family: `Lato`,
+            variants: [`100`, `200`, `300`, `400`, `600`, `700`],
           },
         ],
       },
