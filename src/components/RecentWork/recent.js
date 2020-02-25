@@ -110,13 +110,7 @@ class RecentWorks extends Component {
                 poster="https://giphy.com/gifs/58F2bDDdEce4LCjx8t/html5"
               >
                 <source
-                  src={require('../../assets/images/travel.mp4')}
-                  type="video/mp4"
-                />
-                <source
-                  src={require('../../assets/images/travel.webm')}
-                  type="video/webm"
-                />
+                  src={require('../../assets/images/mercedes.mp4')} type="video/mp4" />
               </video>
             </span>
           </Project>
@@ -132,10 +126,6 @@ class RecentWorks extends Component {
                 poster="https://giphy.com/gifs/LpFM0IFq6aciTfCeL2/html5"
               >
                 <source src={require('../../assets/images/Philipines.mp4')} type="video/mp4" />
-                <source
-                  src={require('../../assets/images/planr.webm')}
-                  type="video/webm"
-                />
               </video>
             </span>
           </Project>
@@ -154,10 +144,6 @@ class RecentWorks extends Component {
                   src={require('../../assets/images/justanna-2.mp4')}
                   type="video/mp4"
                 />
-                <source
-                  src={require('../../assets/images/vistra-energy.webm')}
-                  type="video/webm"
-                />
               </video>
             </span>
           </Project>
@@ -173,10 +159,6 @@ class RecentWorks extends Component {
                 poster="https://giphy.com/gifs/cAqjS1ZeyO4YjUTTDO/html5"
               >
                 <source src={require('../../assets/images/audi.mp4')} type="video/mp4" />
-                <source
-                  src={require('../../assets/images/audi.webm')}
-                  type="video/webm"
-                />
               </video>
             </span>
           </Project>

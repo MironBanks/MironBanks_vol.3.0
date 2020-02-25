@@ -68,49 +68,49 @@ const SkillsList = styled.div`
 `
 
 const AboutPage = () => (
-    <About>
-        <div className="inner">
-            <h3>
-                A <span>little</span> about <br /> who I am.
+  <About>
+    <div className="inner">
+      <h3>
+        A <span>little</span> about <br /> who I am.
         </h3>
-            <span className="block" />
-            <p style={{ margin: '0px 0px 40px 0' }}>
-                Hello! I'm Miron, a Front-End developer based in Oslo who enjoys building things that
-                live on the internet. I develop exceptional websites and web apps that provide intuitive,
-                pixel-perfect user interfaces.
+      <span className="block" />
+      <p style={{ margin: '0px 0px 40px 0' }}>
+        Hello! I'm Miron, a Front-End developer based in Oslo who enjoys building things that
+        live on the internet. I develop exceptional websites and web apps that provide intuitive,
+        pixel-perfect user interfaces.
                 <br />
-                <br />
-                I consider myself to be extremely fortunate, because my 'job', such as it is, simply entails
-                doing what I love. I call myself a web developer as it's a nice umbrella term for the programmer
-                who specializes in the development of World Wide Web applications.
+        <br />
+        I consider myself to be extremely fortunate, because my 'job', such as it is, simply entails
+        doing what I love. I call myself a web developer as it's a nice umbrella term for the programmer
+        who specializes in the development of World Wide Web applications.
                 </p>
-            <p style={{ textAlign: 'center', margin: '0px 0px 40px 0', fontWeight: 700, }} >
-                Currently making things happen at MironBanks Technologies.
+      <p style={{ textAlign: 'center', margin: '0px 0px 40px 0', fontWeight: 700, }} >
+        Currently making things happen at MironBanks Technologies.
                 </p>
-            <p style={{ textAlign: 'center' }}>Skills & other things:</p>
-            <SkillsList>
-                <ul>
-                    <b>Development</b>
-                    <li>HTML & SCSS</li>
-                    <li>Javascript - ES6</li>
-                    <li>React</li>
-                    <li>Redux</li>
-                    <li>Gatsby.js / Next.js</li>
-                    <li>GraphQL</li>
-                    <li>REST API</li>
-                    <li>Webpack</li>
-                    <li>Node.js / NPM</li>
-                    <li>Git/GitHub</li>
-                </ul>
-                <ul>
-                    <b>Design</b>
-                    <li>Photoshop</li>
-                    <li>XD</li>
-                    <li>Protopie</li>
-                </ul>
-            </SkillsList>
-        </div>
-    </About>
+      <p style={{ textAlign: 'center' }}>Skills & other things:</p>
+      <SkillsList>
+        <ul>
+          <b>Development</b>
+          <li>HTML & SCSS</li>
+          <li>Javascript - ES6</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>Gatsby.js / Next.js</li>
+          <li>GraphQL</li>
+          <li>REST API</li>
+          <li>Webpack</li>
+          <li>Node.js / NPM</li>
+          <li>Git/GitHub</li>
+        </ul>
+        <ul>
+          <b>Design</b>
+          <li>Photoshop</li>
+          <li>Adobe XD</li>
+          <li>Protopie</li>
+        </ul>
+      </SkillsList>
+    </div>
+  </About>
 )
 
 export default AboutPage
