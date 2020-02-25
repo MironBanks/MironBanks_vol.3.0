@@ -58,13 +58,11 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  transition: ease-in-out .3s;
 }
 a:active,
 a:hover {
   color: #464646 !important;
   outline-width: 0;
-  transform: translateY(3px);
 }
 abbr[title] {
   border-bottom: none;

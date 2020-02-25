@@ -36,8 +36,8 @@ const RecentContent = styled.div`
 `
 
 const ProjectList = styled.div`
-  z-index: -1;
-  width: 70%;
+ 
+  width: 60%;
   opacity: 0;
   display: flex;
   flex-wrap: wrap;
@@ -48,7 +48,7 @@ const ProjectList = styled.div`
 `
 
 const Project = styled.div`
-  z-index: -3;
+ 
   padding: 0px 15px;
   span {
     z-index: -1 !important;
@@ -58,6 +58,17 @@ const Project = styled.div`
       width: 100%;
       padding-right: 5%;
     }
+  }
+`
+
+const ProjectLink = styled.div`
+  display:flex;
+  justify-content: space-between;
+  z-index:100;
+  a {
+    color:inherit;
+    font-size:14px;
+    cursor: pointer;
   }
 `
 
@@ -101,8 +112,8 @@ class RecentWorks extends Component {
           <Project>
             <span>
               <video
-                width="400"
-                height="300"
+                width="600"
+                height="400"
                 autoPlay
                 muted
                 loop
@@ -113,12 +124,13 @@ class RecentWorks extends Component {
                   src={require('../../assets/images/mercedes.mp4')} type="video/mp4" />
               </video>
             </span>
+            <p>Adobe XD | ProtoPie</p>
           </Project>
           <Project>
             <span>
               <video
-                width="400"
-                height="300"
+                width="600"
+                height="400"
                 autoPlay
                 muted
                 loop
@@ -128,12 +140,13 @@ class RecentWorks extends Component {
                 <source src={require('../../assets/images/Philipines.mp4')} type="video/mp4" />
               </video>
             </span>
+            <p>Adobe XD | ProtoPie</p>
           </Project>
           <Project>
             <span>
               <video
-                width="400"
-                height="300"
+                width="600"
+                height="400"
                 autoPlay
                 muted
                 loop
@@ -146,21 +159,31 @@ class RecentWorks extends Component {
                 />
               </video>
             </span>
+            <p>Adobe XD | ProtoPie</p>
+            <ProjectLink>
+              <a href="https://github.com/MironBanks/Andrew-Morrow" rel="noopener noreferrer" target="_blank">andrewmorrow.no</a>
+              <a href="https://github.com/MironBanks/Andrew-Morrow" rel="noopener noreferrer" target="_blank">GitHub</a>
+            </ProjectLink>
           </Project>
           <Project>
             <span>
               <video
-                width="400"
-                height="300"
+                width="600"
+                height="400"
                 autoPlay
                 muted
                 loop
                 playsInline
                 poster="https://giphy.com/gifs/cAqjS1ZeyO4YjUTTDO/html5"
               >
-                <source src={require('../../assets/images/audi.mp4')} type="video/mp4" />
+                <source src={require('../../assets/images/personalTrainer.mp4')} type="video/mp4" />
               </video>
             </span>
+            <p>Adobe XD | ProtoPie</p>
+            <ProjectLink>
+              <a href="https://github.com/MironBanks/Andrew-Morrow" rel="noopener noreferrer" target="_blank">andrewmorrow.no</a>
+              <a href="https://github.com/MironBanks/Andrew-Morrow" rel="noopener noreferrer" target="_blank">GitHub</a>
+            </ProjectLink>
           </Project>
         </ProjectList>
       </RecentWrapper>
