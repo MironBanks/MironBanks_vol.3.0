@@ -44,7 +44,7 @@ const Navigation = () => (
             <NavigationListItem>
                 <Link to="/about" >.about</Link>
             </NavigationListItem>
-            <a target="_blank" href={pdf} download="resumeJakubSladek" >
+            <a target="_blank" rel="noopener noreferrer" href={pdf} download="resumeJakubSladek" >
                 <NavigationListItem>.resume</NavigationListItem>
             </a>
         </NavigationList>

@@ -79,7 +79,7 @@ class SocialIcons extends Component {
                 key={`social-${index}`}
                 ref={li => (this.socials[index] = li)}
               >
-                <a target="_blank" href={social.url}>
+                <a target="_blank" rel="noopener noreferrer" href={social.url}>
                   <FontAwesomeIcon icon={['fab', `${social.icon}`]} />
                 </a>
               </li>
