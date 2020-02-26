@@ -102,10 +102,14 @@ class RecentWorks extends Component {
     return (
       <RecentWrapper>
         <RecentContent ref={div => (this.recent = div)}>
-          <h3>Recent Works</h3>
+          <h3>. Some Things I've Built</h3>
           <p>
-            This is only a tiny highlight of things I have available to show.
-            More exciting projects coming soon ;).
+            This is only a tiny highlight of things I've built.
+            <br />
+            I have more exciting projects coming soon.
+            <br />
+            <br />
+            Below U can check my other noteworthy smaller projects.
           </p>
         </RecentContent>
         <ProjectList ref={img => (this.img = img)}>
@@ -125,6 +129,26 @@ class RecentWorks extends Component {
               </video>
             </span>
             <p>Adobe XD | ProtoPie</p>
+          </Project>
+          <Project>
+            <span>
+              <video
+                width="600"
+                height="400"
+                autoPlay
+                muted
+                loop
+                playsInline
+                poster="https://giphy.com/gifs/cAqjS1ZeyO4YjUTTDO/html5"
+              >
+                <source src={require('../../assets/images/mariusz.mp4')} type="video/mp4" />
+              </video>
+            </span>
+            <p>Adobe XD | ProtoPie</p>
+            <ProjectLink>
+              <a href="https://github.com/MironBanks/Andrew-Morrow" rel="noopener noreferrer" target="_blank">andrewmorrow.no</a>
+              <a href="https://github.com/MironBanks/Andrew-Morrow" rel="noopener noreferrer" target="_blank">GitHub</a>
+            </ProjectLink>
           </Project>
           <Project>
             <span>
