@@ -2,15 +2,17 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import { TimelineLite } from 'gsap'
 import {
-  faDribbble,
   faGithub,
   faLinkedin,
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons'
+import {
+  faEnvelope,
+} from '@fortawesome/free-regular-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-library.add(faDribbble, faGithub, faLinkedin, faInstagram)
+library.add(faGithub, faLinkedin, faInstagram, faEnvelope)
 
 const SocialLinks = styled.div`
   margin-top: 50px;
@@ -51,6 +53,7 @@ const socialsArray = [
     icon: 'linkedin',
   },
   { url: 'https://www.instagram.com/dealwith_that', icon: 'instagram' },
+  { url: 'mailto:info@mironbanks.com', icon: 'envelope' },
 ]
 
 class SocialIcons extends Component {
@@ -81,6 +84,7 @@ class SocialIcons extends Component {
               >
                 <a target="_blank" rel="noopener noreferrer" href={social.url}>
                   <FontAwesomeIcon icon={['fab', `${social.icon}`]} />
+                  <FontAwesomeIcon icon={['far', `${social.icon}`]} />
                 </a>
               </li>
             )

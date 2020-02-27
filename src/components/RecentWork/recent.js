@@ -50,6 +50,7 @@ const ProjectList = styled.div`
 const Project = styled.div`
  
   padding: 0px 15px;
+  margin:20px 0;
   span {
     z-index: -1 !important;
   }
@@ -108,6 +109,8 @@ class RecentWorks extends Component {
             <br />
             I have more exciting projects coming soon.
             <br />
+            Feel free to check my gitHub.
+            <br />
             <br />
             Below U can check my other noteworthy smaller projects.
           </p>
@@ -117,7 +120,7 @@ class RecentWorks extends Component {
             <span>
               <video
                 width="600"
-                height="400"
+                height="350"
                 autoPlay
                 muted
                 loop
@@ -134,7 +137,7 @@ class RecentWorks extends Component {
             <span>
               <video
                 width="600"
-                height="400"
+                height="350"
                 autoPlay
                 muted
                 loop
@@ -144,17 +147,17 @@ class RecentWorks extends Component {
                 <source src={require('../../assets/images/mariusz.mp4')} type="video/mp4" />
               </video>
             </span>
-            <p>Adobe XD | ProtoPie</p>
+            <p>HTML / CSS | Bootstrap | WOW.js</p>
             <ProjectLink>
-              <a href="https://github.com/MironBanks/Andrew-Morrow" rel="noopener noreferrer" target="_blank">andrewmorrow.no</a>
-              <a href="https://github.com/MironBanks/Andrew-Morrow" rel="noopener noreferrer" target="_blank">GitHub</a>
+              <a href="http://aibstahlbau.pl/" rel="noopener noreferrer" target="_blank">aibstahlbau.pl</a>
+              <a href="https://github.com/MironBanks/welder" rel="noopener noreferrer" target="_blank">GitHub</a>
             </ProjectLink>
           </Project>
           <Project>
             <span>
               <video
                 width="600"
-                height="400"
+                height="350"
                 autoPlay
                 muted
                 loop
@@ -170,7 +173,7 @@ class RecentWorks extends Component {
             <span>
               <video
                 width="600"
-                height="400"
+                height="350"
                 autoPlay
                 muted
                 loop
@@ -183,17 +186,17 @@ class RecentWorks extends Component {
                 />
               </video>
             </span>
-            <p>Adobe XD | ProtoPie</p>
+            <p>Project in Progress | Adobe XD | ProtoPie</p>
             <ProjectLink>
-              <a href="https://github.com/MironBanks/Andrew-Morrow" rel="noopener noreferrer" target="_blank">andrewmorrow.no</a>
-              <a href="https://github.com/MironBanks/Andrew-Morrow" rel="noopener noreferrer" target="_blank">GitHub</a>
+              <a href="http://mironbanks.com" rel="noopener noreferrer" target="_blank">justanna.no</a>
+              <a href="https://github.com/MironBanks" rel="noopener noreferrer" target="_blank">GitHub</a>
             </ProjectLink>
           </Project>
           <Project>
             <span>
               <video
                 width="600"
-                height="400"
+                height="350"
                 autoPlay
                 muted
                 loop
@@ -203,7 +206,7 @@ class RecentWorks extends Component {
                 <source src={require('../../assets/images/personalTrainer.mp4')} type="video/mp4" />
               </video>
             </span>
-            <p>Adobe XD | ProtoPie</p>
+            <p>HTML / CSS | Bootstrap | WOW.js</p>
             <ProjectLink>
               <a href="https://github.com/MironBanks/Andrew-Morrow" rel="noopener noreferrer" target="_blank">andrewmorrow.no</a>
               <a href="https://github.com/MironBanks/Andrew-Morrow" rel="noopener noreferrer" target="_blank">GitHub</a>
