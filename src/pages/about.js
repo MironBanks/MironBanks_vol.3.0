@@ -9,8 +9,8 @@ const About = styled.div`
     display: flex;
     flex-direction: column;
     position: relative;
-    z-index: -1;
     width: 50%;
+    max-width:900px;
     @media (max-width: 600px) {
       padding: 0 2%;
       width: 100%;
@@ -44,6 +44,14 @@ const About = styled.div`
       font-family: 'Lato';
       font-size: 14px;
     }
+
+    a{
+      text-align: center;
+      margin:0px 40px 40px 40px;
+      color:inherit;
+      font-size:14px;
+      cursor: pointer;
+    }
   }
 `
 
@@ -74,7 +82,7 @@ const AboutPage = () => (
         A <span>little</span> about <br /> who I am.
         </h3>
       <span className="block" />
-      <p style={{ margin: '0px 0px 40px 0' }}>
+      <p style={{ margin: '0px 0px 40px 0px' }}>
         Hello! I'm Miron, a Front-End developer based in Oslo who enjoys building things that
         live on the internet. I develop exceptional websites and web apps that provide intuitive,
         pixel-perfect user interfaces.
@@ -84,9 +92,11 @@ const AboutPage = () => (
         doing what I love. I call myself a web developer as it's a nice umbrella term for the programmer
         who specializes in the development of World Wide Web applications.
                 </p>
-      <p style={{ textAlign: 'center', margin: '0px 0px 40px 0', fontWeight: 700, }} >
-        Currently making things happen at MironBanks Technologies.
+      <p style={{ textAlign: 'center', margin: '0px 40px 40px 40px', fontWeight: 700, }} >
+        I'm currently looking for freelance opportunities, my inbox is always open.
+        Whether for a potential project or just to say hi, I'll try my best to answer your email!
                 </p>
+      <a href="mailto:info@mironbanks.com" target="_blank" rel="noopener noreferrer">info@mironbanks.com</a>
       <p style={{ textAlign: 'center' }}>Skills & other things:</p>
       <SkillsList>
         <ul>

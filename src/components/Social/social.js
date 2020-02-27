@@ -5,6 +5,7 @@ import {
   faGithub,
   faLinkedin,
   faInstagram,
+  faDribbble,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faEnvelope,
@@ -12,7 +13,7 @@ import {
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-library.add(faGithub, faLinkedin, faInstagram, faEnvelope)
+library.add(faGithub, faLinkedin, faInstagram, faDribbble, faEnvelope)
 
 const SocialLinks = styled.div`
   margin-top: 50px;

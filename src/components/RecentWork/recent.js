@@ -109,10 +109,9 @@ class RecentWorks extends Component {
             <br />
             I have more exciting projects coming soon.
             <br />
-            Feel free to check my gitHub.
             <br />
-            <br />
-            Below U can check my other noteworthy smaller projects.
+            Feel free to check my code on gitHub.
+            
           </p>
         </RecentContent>
         <ProjectList ref={img => (this.img = img)}>
@@ -168,6 +167,29 @@ class RecentWorks extends Component {
               </video>
             </span>
             <p>Adobe XD | ProtoPie</p>
+          </Project>
+          <Project>
+            <span>
+              <video
+                width="600"
+                height="350"
+                autoPlay
+                muted
+                loop
+                playsInline
+                poster="https://giphy.com/gifs/cICXYU9zQ1eWR18jcb/html5"
+              >
+                <source
+                  src={require('../../assets/images/simplefilms_2.mp4')}
+                  type="video/mp4"
+                />
+              </video>
+            </span>
+            <p>HTML / CSS | AOS | JavaScript</p>
+            <ProjectLink>
+              <a href="http://simplefilms.no" rel="noopener noreferrer" target="_blank">simplefilms.no</a>
+              <a href="https://github.com/MironBanks/simplefilms.no" rel="noopener noreferrer" target="_blank">GitHub</a>
+            </ProjectLink>
           </Project>
           <Project>
             <span>
