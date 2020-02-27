@@ -1,4 +1,6 @@
 import React from 'react'
+import SEO from '../components/seo'
+import MainLayout from '../layouts/index';
 import styled from 'styled-components'
 
 const About = styled.div`
@@ -76,6 +78,11 @@ const SkillsList = styled.div`
 `
 
 const AboutPage = () => (
+  <MainLayout>
+  <SEO
+      title="About"
+      keywords={[`Hire Developer`, `Hire Designer`, `React Developer`]}
+    />
   <About>
     <div className="inner">
       <h3>
@@ -121,6 +128,7 @@ const AboutPage = () => (
       </SkillsList>
     </div>
   </About>
+  </MainLayout>
 )
 
 export default AboutPage
